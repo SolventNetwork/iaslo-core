@@ -1,3 +1,15 @@
+# Interest Accruing Stop Loss Orders (IASLO)
+
+This contract is designed as a hook on Uniswap v4 to allow users to open stop loss orders. The stop loss orders lock up liquidity so that they can always be filled. To compensate for this lockup, liquidity providers are compensated with a flow of interest from the order. There can also be additional interest paid to an external source (e.g. lenders in a lending protocol).
+
+## Contribution Guidelines
+
+See our [contribution guidelines](/CONTRIBUTING.md)!
+
+---
+
+The README for the original template is reproduced below.
+
 # Foundry Template [![Open in Gitpod][gitpod-badge]][gitpod] [![Github Actions][gha-badge]][gha] [![Foundry][foundry-badge]][foundry] [![License: MIT][license-badge]][license]
 
 [gitpod]: https://gitpod.io/#https://github.com/soliditylabs/uniswap-v4-custom-pool
